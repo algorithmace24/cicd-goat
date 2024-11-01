@@ -1,3 +1,4 @@
 flask==3.0.0
 flask-login==0.6.3
 pytest==7.4.4
+werkzeug>=3.0.6 # not directly required, pinned by Snyk to avoid a vulnerability
